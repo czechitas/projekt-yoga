@@ -1,0 +1,77 @@
+
+/* tlačítko */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 100vw;
+  background: var(--button-bg-color);
+}
+
+.button:hover,
+.button:focus {
+  background: var(--button-active-bg-color);
+}
+
+
+/* hlavička */
+.header {
+  background: var(--header-bg-color);
+  color: white;
+  padding-block: 20px;
+}
+
+.header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* menu */
+.menu {
+  margin-top: 20px;
+  display: flex;
+}
+
+.menu__link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 100vw;
+}
+
+.menu__link:hover,
+.menu__link:focus {
+  background: #ffffff40;
+}
+
+
+/* jogové pozice */
+.pose {
+  background: white;
+  border-radius: 8px;
+}
+
+.pose + .pose {
+  margin-top: 30px;
+}
+
+.pose__image {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.pose__content {
+  padding: 20px;
+}
+
+.pose__title {
+  margin-top: 0;
+  color: var(--title-color);
+}
+
+.pose__subtitle {
+  color: var(--subtitle-color);
+}
